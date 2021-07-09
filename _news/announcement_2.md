@@ -1,5 +1,6 @@
 ---
 layout: post
+<<<<<<< HEAD
 title: A long announcement with details
 date: 2015-11-07 16:11:00-0400
 inline: false
@@ -30,3 +31,12 @@ Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxide
 > —Anais Nin
 
 Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+=======
+date: 2020-12-26 16:11:00-0400
+inline: true
+---
+
+I have been co-author of my first publication :sparkles: :smile:. It is about a new <br>
+deep learning architecture for protein similarity search, check it out [here](https://doi.org/10.1093/bioinformatics/btaa1051). <br>
+We have also released the software on [GitHub](https://github.com/univieCUBE/deepnog).
+>>>>>>> 88c10c7 (First website draft :))

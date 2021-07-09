@@ -73,10 +73,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: saper0 # your GitHub user name
 gitlab_username: # your GitLab user name 
 twitter_username: lukgosch # your Twitter handle
+linkedin_username: lukasgosch # your LinkedIn user name
+scholar_userid: ilCFrEMAAAAJ # your Google Scholar ID
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -103,7 +103,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  If you want to contanct me, best just drop me an e-mail :).
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -119,8 +119,12 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+=======
+blog_name:  # your blog must have a name for it to show up in the nav bar
+>>>>>>> 88c10c7 (First website draft :))
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -259,8 +263,13 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
+<<<<<<< HEAD
   last_name: [Einstein]
   first_name: [Albert, A.]
+=======
+  last_name: Gosch
+  first_name: [Lukas, L.]
+>>>>>>> 88c10c7 (First website draft :))
 
   style: apa
   locale: en
