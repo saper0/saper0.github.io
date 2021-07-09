@@ -46,8 +46,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: saper0 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: lukgosch # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+linkedin_username: lukasgosch # your LinkedIn user name
+scholar_userid: ilCFrEMAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -59,7 +59,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  If you want to contanct me, best just drop me an e-mail :).
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -68,7 +68,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
+blog_name:  # your blog must have a name for it to show up in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -143,8 +143,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Gosch
+  first_name: [Lukas, L.]
 
   style: apa
   locale: en
