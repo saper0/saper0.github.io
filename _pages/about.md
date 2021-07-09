@@ -2,32 +2,20 @@
 layout: about
 title: about
 permalink: /
-<<<<<<< HEAD
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-=======
-description: Hello, welcome to my corner of the web! 
+description: 
 
 profile:
   align: right
   image: me.png
     
->>>>>>> 88c10c7 (First website draft :))
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, welcome to my corner of the web! 
+I am a machine learning researcher having broad interests spanning from theoretical machine learning over learning on graphs to optimization. 
+>>>>>>> d447bc0 (Updated about-me.)
 
 I am a researcher on reliable machine learning and focus on robust and privacy-preserving learning on graphs. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group. Furthermore, I am also interested in theoretical machine learning and have experience in combinatorial optimization. 
 
