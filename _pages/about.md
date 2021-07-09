@@ -27,17 +27,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<<<<<<< HEAD
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-=======
-I am a machine learning researcher currently looking for PhD positions. I have a broad interest spanning from theoretical machine learning over learning on graphs to optimization. 
->>>>>>> 88c10c7 (First website draft :))
+Hello, welcome to my corner of the web! 
 
-If you want to contact me, best drop me an e-mail: *gosch . lukas [at] gmail.com*. Scroll down to find my other social media appearences.
+I am a researcher on reliable machine learning and focus on robust and privacy-preserving learning on graphs. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group. Furthermore, I am also interested in theoretical machine learning and have experience in combinatorial optimization. 
 
-<<<<<<< HEAD
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
-=======
+If you want to contact me, best drop me an e-mail: *gosch . lukas [at] gmail.com*. Scroll down to find my other social media appearances.
+
 Quick Link: <a href="/assets/pdf/CV.pdf">Resume/CV</a> 
 
 [//]: # ([subreddit](http://reddit.com)
@@ -45,4 +40,4 @@ Quick Link: <a href="/assets/pdf/CV.pdf">Resume/CV</a>
 
 [//]: # ([Font Awesome icons](http://fortawesome.github.io/Font-Awesome/)
 [//]: # ([Academicons](https://jpswalsh.github.io/academicons/)
->>>>>>> 88c10c7 (First website draft :))
+
