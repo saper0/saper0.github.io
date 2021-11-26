@@ -14,10 +14,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a machine learning researcher having broad interests spanning from theoretical machine learning over learning on graphs to optimization. 
->>>>>>> d447bc0 (Updated about-me.)
+Hello, welcome to my corner of the web! 
 
-I am a researcher on reliable machine learning and focus on robust and privacy-preserving learning on graphs. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group. Furthermore, I am also interested in theoretical machine learning and have experience in combinatorial optimization. 
+I am a researcher on machine learning and focus on robust and reliable learning on graphs. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group. Furthermore, I am also interested in theoretical machine learning and have experience in combinatorial optimization. 
 
 If you want to contact me, best drop me an e-mail: *gosch . lukas [at] gmail.com*. Scroll down to find my other social media appearances.
 
