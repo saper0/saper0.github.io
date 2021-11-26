@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2021-06-15 07:59:00-0400
+date: 2021-11-26 07:59:00-0400
 inline: true
 ---
 
-Very happy to present my master's thesis work on sustainable transportation <br> 
-at the [IPIC2021](https://www.pi.events/2021) conference and be part of the conversation to achieve climate <br> neutrality.
+I am deeply honored and thankful to be the recipient of this year's master thesis price of the Austrian Society for Operations Research ([ÖGOR](https://oegor.wordpress.com/)).
