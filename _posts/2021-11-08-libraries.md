@@ -63,3 +63,7 @@ ToDo: Show how above code (extended with GPU usages) can be simplified and scale
 ## Captum
 
 Library built on PyTorch for interpretability research. Allows to better debug deep learning models and implements methods such as integrated gradients.
+
+## BackPACK
+
+Library built on top of PyTorch to extract more information from backpropagation to compute approximations of the Hessian or variance of the gradients to implement higher order optimization schemes. https://backpack.pt/
