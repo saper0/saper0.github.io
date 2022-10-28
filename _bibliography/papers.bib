@@ -1,53 +1,43 @@
-<<<<<<< HEAD
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@article{overrobustness_iclr23,
+  title = {Revisiting Robustness in Graph Machine Learning},
+  journal = {ICLR 2023},
+  year = {2023},
+  author = {Lukas Gosch and Daniel Sturm and Simon Geisler and Stephan Günnemann},
+  abstract = {Many works show that node-level predictions of Graph Neural Networks (GNNs) are unrobust to small, often termed adversarial, changes to the graph structure.
+However, because manual inspection of a graph is difficult, it is unclear if the
+studied perturbations always preserve a core assumption of adversarial examples:
+that of unchanged semantic content. To address this problem, we introduce a
+more principled notion of an adversarial graph, which is aware of semantic con-
+tent change. Using Contextual Stochastic Block Models (CSBMs) and real-world
+graphs, our results uncover: i) for a majority of nodes the prevalent perturba-
+tion models include a large fraction of perturbed graphs violating the unchanged
+semantics assumption; ii) surprisingly, all assessed GNNs show over-robustness
+- that is robustness beyond the point of semantic change. We find this to be a
+complementary phenomenon to adversarial examples and show that including the
+label-structure of the training graph into the inference process of GNNs signif-
+icantly reduces over-robustness, while having a positive effect on test accuracy
+and adversarial robustness. Theoretically, leveraging our new semantics-aware
+notion of robustness, we prove that there is no robustness-accuracy tradeoff for
+inductively classifying a newly added node.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@article{dp_neurips22,
+  title = {Training Differentially Private Graph Neural Networks with Random Walk Sampling},
+  journal = {NeurIPS 2022' TSRML Workshop},
+  year = {2022},
+  author = {Morgane Ayle and Jan Schuchardt and Lukas Gosch and Daniel Zügner and Stephan Günnemann},
+  abstract = {Deep learning models are known to put the privacy of their training data at risk, which poses challenges for their safe and ethical release to the public. Differentially private stochastic gradient descent is the de facto standard for training neural networks without leaking sensitive information about the training data. However, applying it to models for graph-structured data poses a novel challenge: unlike with i.i.d. data, sensitive information about a node in a graph cannot only leak through its gradients, but also through the gradients of all nodes within a larger neighborhood. In practice, this limits privacy-preserving deep learning on graphs to very shallow graph neural networks. We propose to solve this issue by training graph neural networks on disjoint subgraphs of a given training graph. We develop three random-walk-based methods for generating such disjoint subgraphs and perform a careful analysis of the data-generating distributions to provide strong privacy guarantees. Through extensive experiments, we show that our method greatly outperforms the state-of-the-art baseline on three large graphs, and matches or outperforms it on four smaller ones.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@article{overrobustness_neurips22,
+  title = {Revisiting Robustness in Graph Machine Learning},
+  journal = {NeurIPS 2022' TSRML Workshop and NeurIPS 2022' ML Safety Workshop},
+  year = {2022},
+  author = {Lukas Gosch and Daniel Sturm and Simon Geisler and Stephan Günnemann},
+  abstract = {Many works show that node-level predictions of Graph Neural Networks (GNNs) are unrobust to small, often termed adversarial, changes to the graph structure. However, because manual inspection of a graph is difficult, it is unclear if the studied perturbations always preserve a core assumption of adversarial examples: that of unchanged semantic content. To address this problem, we introduce a more principled notion of an adversarial graph, which is aware of semantic content change. Using Contextual Stochastic Block Models (CSBMs) and real-world graphs, our results uncover: i) for a majority of nodes the prevalent perturbation models include a large fraction of perturbed graphs violating the unchanged semantics assumption; ii) surprisingly, all assessed GNNs show over-robustness - that is robustness beyond the point of semantic change. We find this to be a complementary phenomenon to adversarial robustness related to the small degree of nodes and their class membership dependence on the neighbourhood structure.}
 }
-=======
+
 @article{10.1093/bioinformatics/btaa1051,
 	author = {Roman Feldbauer and Lukas Gosch and Lukas Lüftinger and Patrick Hyden and Arthur Flexer and Thomas Rattei},
 	title = "{DeepNOG: fast and accurate protein orthologous group assignment}",
@@ -65,41 +55,10 @@
 	selected={true}
 }
 
-@article{gosch,
+@article{ipic2021,
 	title = {On Modelling and Solving Green Collaborative Transportation Planning},
 	journal = {Proceedings of the 8th International Physical Internet Conference IPIC 2021},
 	year = {2021},
 	author = {Lukas Gosch and Matthias Prandtstetter and Karl F. Doerner},
 	abstract = {This paper presents a new mathematical model for tactical transportation planning in a horizontal collaboration defined by warehouse sharing and the joint organization of transport. The model features intermodal transport, handling and storage capacities, diverse products and realistic tariff structures with volume discounts. Furthermore, it allows for sustainable planning by associating estimated CO2 equivalent (CO2e) emissions to each logistic operation and then either optimize for transportation costs, emissions or both objectives. Subsequently, we derive a mixed-integer formulation for exact solution approaches and a hybrid heuristic to solve large-scale instances. The hybrid heuristic is composed of a slope scaling matheuristic we generalized to non-negative integer variables and a second local search based refinement step, which reroutes flow of multiple products at once along lowest-cost paths in the network. Results obtained from simulating collaboration in the Danube Region using the regional available transportation infrastructure including railway and shipping networks reveal significant saving potentials in both costs and CO2e emissions. Cost minimizing solutions always lead to reductions of the carbon footprint. However, minimizing for emissions can significantly further this reduction but requires a minimum size of the collaboration to operate cost-efficiently.}
 }
-
->>>>>>> 88c10c7 (First website draft :))
-
-
-<<<<<<< HEAD
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
-=======
->>>>>>> 88c10c7 (First website draft :))
