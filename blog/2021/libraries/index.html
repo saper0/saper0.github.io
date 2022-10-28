@@ -1,0 +1,89 @@
+<hr />
+<p>layout: distill
+title: Notes About Books
+description: Notes about libraries for deep learning, especially with graphs.
+date: 2021-11-08</p>
+
+<p>authors:</p>
+<ul>
+  <li>name: Lukas Gosch
+url: “https://saper0.github.io/”
+affiliations:
+  name: Data Mining and Machine Learning, TU Munich</li>
+</ul>
+
+<p>bibliography: 2021-11-08_libraries.bib</p>
+
+<h2 id="pytorch">PyTorch</h2>
+
+<p>Allows to easily implement deep learning models by providing preimplementations of common layers, optimization methods or whole deep learning models. I assume you are quite familiar with PyTorch and hence, won’t go into details about it here. Below you find an example implementation of a convolutional neural network for references of the other sections.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="code"><pre><span class="kn">from</span> <span class="nn">torch.nn</span> <span class="kn">import</span> <span class="n">Conv2d</span>
+
+<span class="k">class</span> <span class="nc">CNN</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">conv1</span> <span class="o">=</span> <span class="n">Conv2d</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">conv2</span> <span class="o">=</span> <span class="n">Conv2d</span><span class="p">(</span><span class="mi">64</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">input</span><span class="p">):</span>
+      <span class="n">h</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">conv1</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span>
+      <span class="n">h</span> <span class="o">=</span> <span class="n">h</span><span class="p">.</span><span class="n">relu</span><span class="p">()</span>
+      <span class="n">h</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">conv2</span><span class="p">(</span><span class="n">h</span><span class="p">)</span>
+      <span class="k">return</span> <span class="n">h</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h2 id="pytorch-geometric-pyg">PyTorch Geometric (PyG)</h2>
+
+<p>Allows to easily implement graph neural networks in a PyTorch fashion. See this example taken from a talk of the creator of PyG (Twitter: @rusty1s) implementing a convolutional graph neural network and compare it with the example in the PyTorch section.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="code"><pre><span class="kn">from</span> <span class="nn">torch_geometric.nn</span> <span class="kn">import</span> <span class="n">GCNConv</span>
+
+<span class="k">class</span> <span class="nc">GNN</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">conv1</span> <span class="o">=</span> <span class="n">GCNConv</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">conv2</span> <span class="o">=</span> <span class="n">GCNConv</span><span class="p">(</span><span class="mi">64</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">input</span><span class="p">,</span> <span class="n">edge_index</span><span class="p">):</span>
+      <span class="n">h</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">conv1</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">edge_index</span><span class="p">)</span>
+      <span class="n">h</span> <span class="o">=</span> <span class="n">h</span><span class="p">.</span><span class="n">relu</span><span class="p">()</span>
+      <span class="n">h</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">conv2</span><span class="p">(</span><span class="n">h</span><span class="p">,</span> <span class="n">edge_index</span><span class="p">)</span>
+      <span class="k">return</span> <span class="n">h</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h2 id="pytorch-ligthning">PyTorch Ligthning</h2>
+
+<p>Library to simplify research code generation and scaling models, “automates” the engineering parts of deep learning research.</p>
+
+<p>ToDo: Show how above code (extended with GPU usages) can be simplified and scaled with PyTorch Lighning</p>
+
+<h2 id="captum">Captum</h2>
+
+<p>Library built on PyTorch for interpretability research. Allows to better debug deep learning models and implements methods such as integrated gradients.</p>
+
+<h2 id="backpack">BackPACK</h2>
+
+<p>Library built on top of PyTorch to extract more information from backpropagation to compute approximations of the Hessian or variance of the gradients to implement higher order optimization schemes. https://backpack.pt/</p>
