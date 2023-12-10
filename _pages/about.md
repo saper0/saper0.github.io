@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hello, welcome to my corner of the web!
 
-I am a researcher on machine learning focusing on robust and reliable learning on graphs. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group and am part of the [relAI](https://zuseschoolrelai.de/) graduate school. Furthermore, I am also interested in theoretical machine learning, high-dimensional statistics and combinatorial optimization. 
+I am a researcher on machine learning focusing on robust and reliable learning on graphs. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group and am part of the [relAI](https://zuseschoolrelai.de/) graduate school. Currently, I am especially interested in provable robustness. Furthermore, I am also interested in theoretical machine learning, high-dimensional statistics and combinatorial optimization. 
 
 If you want to contact me, best write me an e-mail: *lukas . gosch [at] tum.de*. Scroll down to find my other social media appearances.
 
