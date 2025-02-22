@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-02-01 16:57:00-0400
+date: 2024-12-01 16:57:00-0400
 inline: true
 ---
 
-Our paper [Exact Certification of (Graph) Neural Networks Against Label Poisoning](https://openreview.net/pdf?id=d9aWa875kj) got accepted to ICLR 2025 (Spotlight, top 5.1%) :tada:.
+Our paper [Provable Robustness of (Graph) Neural Networks Against Data Poisoning and Backdoor Attacks](https://arxiv.org/abs/2407.10867) got the best paper award at [AdvML-Frontiers@NeurIPS 2024](https://advml-frontier.github.io/) :tada:.
