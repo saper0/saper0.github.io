@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-07-01 16:57:00-0400
+date: 2024-11-01 16:57:00-0400
 inline: true
 ---
 
-Check out our new preprint [Provable Robustness of (Graph) Neural Networks Against Data Poisoning and Backdoor Attacks](https://arxiv.org/abs/2407.10867).
+Our paper [Assessing Robustness via Score-Based Adversarial Image Generation](https://openreview.net/pdf?id=7Oqb6zlGWl) got accepted to TMLR :tada:.
