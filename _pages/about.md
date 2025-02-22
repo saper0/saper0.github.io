@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hello, welcome to my corner of the web!
 
-I am a researcher focusing on topics at the intersection of machine learning and optimization. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group and am part of the [relAI](https://zuseschoolrelai.de/) graduate school. Currently, I am especially interested in the use of machine learning for and in optimization problems. Before this, I have worked extensively on robustness verification, graph neural networks, and general robustness topics. 
+I am a researcher focusing on topics at the intersection of machine learning and optimization. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group and am part of the [relAI](https://zuseschoolrelai.de/) graduate school. Currently, I am especially interested in the use of machine learning for and in optimization problems commonly arising e.g., in operations research. Before this, I have worked extensively on robustness verification, graph neural networks, and general robustness topics. 
 
 If you want to contact me, best write me an e-mail: *lukas . gosch [at] tum.de*. Scroll down to find my other social media appearances.
 
