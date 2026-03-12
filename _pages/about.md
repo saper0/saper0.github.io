@@ -14,9 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, welcome to my corner of the web!
-
-I am a researcher focusing on topics at the intersection of machine learning and optimization. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group and am part of the [relAI](https://zuseschoolrelai.de/) graduate school. Currently, I am especially interested in combinatorial optimization and the use of machine learning for and in optimization problems commonly arising e.g., in operations research. Before this, I have worked extensively on robustness verification, graph neural networks, and general robustness topics. 
+I am a researcher working on topics at the intersection of machine learning and optimization. I am doing my PhD at TU Munich under the supervision of [Prof. Günnemann](https://www.in.tum.de/daml/team/guennemann/) in the [DAML](https://www.in.tum.de/daml/startseite/) research group and am part of the [relAI](https://zuseschoolrelai.de/) graduate school. My current research interests lie in ML for combinatorial optimization, in particular, using machine learning to speed up traditional mixed-integer programming solvers. More broadly, I'm also interested in how predictions and optimization can be effectively combined, as well as in applications to societal domains such as mobility and transportation. Previously, I have worked on graph neural networks, robustness verification, and more general adversarial robustness. 
 
 If you want to contact me, best write me an e-mail: *lukas . gosch [at] tum.de*. Scroll down to find my other social media appearances.
 
